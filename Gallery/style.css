@@ -1,0 +1,74 @@
+@font-face {
+font-family: "Open Sans" ;
+src: url(fonts/OpenSans-Regular.ttf);
+font-style: normal;
+font-weight: normal;
+}
+@font-face {
+  font-family: "Roboto";
+  src:url(fonts/Roboto-Bold.ttf);
+  font-style: normal;
+  font-weight: normal;
+}
+body {
+  background-image: url(images/1589.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color:
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+header {
+  display:flex;
+  background-color: #2F3435;
+  justify-content: center;
+  width: 100%;
+  height: 100px;
+}
+h1 {
+  color: #B4A086;
+  font-size: 48px;
+  font-family: Roboto;
+  text-align: center;
+  margin:auto;
+  padding: 20px;
+}
+.container {
+  diplay:flex;
+  margin:auto;
+  width: 360px;
+}
+ul {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  list-style-type: square;
+}
+li {
+  display: flex;
+  align-items: center;
+  width: 420px;
+  margin-top: 50px;
+}
+.marker {
+  width: 20px;
+  height: 20px;
+  background-color: #B4A086;
+  margin-right: 40px;
+}
+.card {
+  display: flex;
+  flex-wrap: nowrap;
+  align-content: center;
+  background-color: #B4A086;
+  padding-top: 30px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-bottom: 60px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.5);
+}
+img {
+  width: 200px;
+}
